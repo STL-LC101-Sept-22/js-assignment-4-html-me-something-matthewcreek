@@ -3,17 +3,25 @@
 
 <head>
    <title>Some Favorite Video Games</title>
+
+   <link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
 <header>
+   <div id="mainHeading">
    <h1>My Video Game Greatest Hits</h1>
    <h2>by Matthew Creek</h2>
    <p>A list in no particular order.</p>
+   </div>
+
 </header>
 
 <body>
    <main>
-      <ul>
-         <li>
+
+      <ul id="listing">
+         <li class="segment">
+
+
             <article>
                <h3>Titanfall 2</h3>
                <p>
@@ -26,12 +34,14 @@
                   speed and agility of the pilot-specific jump-kit
                   Jack Cooper takes on the evil armada to save the planet and maybe help with the war.
                </p>
-               <img src="images/titanfall2-2.jpg" alt="Jack Cooper and BT-7274">
-               <p>&pound;25.29</p>
+
+               <img src="images/titanfall2-2.jpg" alt="Jack Cooper and BT-7274" class="image">
+               <p class="price">&pound;25.29</p>
             </article>
          </li>
          <li>
-            <article>
+            <article class="segment">
+
                <h3>Nier:Automata</h3>
                <p>
                   This is a game that needs to be experienced more than played. You play as two androids that a
@@ -40,18 +50,20 @@
                   Is it possible for artificial intelligences to achieve this level of humanity? This game, despite
                   initial appearances, deserves the title of masterpiece.
                </p>
-               <img src="images/nier.jpg" alt="2B and the Forest King">
-               <p>&pound;33.72</p>
+
+               <img src="images/nier.jpg" alt="2B and the Forest King" class="image">
+               <p class="price">&pound;33.72</p>
             </article>
          </li>
          <li>
-            <article>
+            <article class="segment">
                <h3>Half-Life Alyx</h3>
-               <p>
+               <p id="testP" class="funParagraph">
                   This game is the knife edge of VR game design in my opinion. I binged this game in 2 sittings and there were points in the real world where my hands no longer felt real because they didn't match the hands that I had in the VR headset. Intense gunfights against human characters and worse that utilized my real-world body to take cover and land accurate shots while also giving a narrative story and experience will be hard to top in the coming years. This game is the proof that VR implementation is the way of the future for game developers, as long as they're willing to invest the resources for it. 
                </p>
-               <img src="images/halflifealyx.png" alt="Half-Life Alyx combat in first person">
-               <p>&pound;50.59</p>
+               <img src="images/halflifealyx.png" alt="Half-Life Alyx combat in first person" class="image">
+               <p class="price">&pound;50.59</p>
+
             </article>
          </li>
       </ul>

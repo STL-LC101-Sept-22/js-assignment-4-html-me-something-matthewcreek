@@ -1,1 +1,42 @@
 /* Write your CSS here! */
+body {
+    background-color: blanchedalmond;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 8px;
+    display: block;
+}
+
+#mainHeading {
+    border-style: solid;
+    border-color: rgb(158, 55, 7);
+    border-radius: 50px;
+    text-align: center;
+    color: red;
+}
+
+.segment {
+    border-style: double;
+    border-radius: 5px;
+    margin: 5px;
+    text-indent: 10px;
+    padding: 5px 15px;
+}
+
+#listing {
+    border-style: double;
+    border-radius: 20px;
+}
+
+.price {
+    font-weight: 700;
+    text-decoration: underline solid;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.funParagraph {
+    color:green
+}
